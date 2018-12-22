@@ -12,8 +12,6 @@
 
     </div><!-- /.blog-main -->
 
-    <?php get_sidebar(); ?>
-
   </div><!-- /.row -->
 
 </main><!-- /.container -->

@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <main role="main" class="container">
   <div class="row">
     <div class="col-md-12 blog-main">

@@ -1,7 +1,3 @@
-<h3 class="pb-3 mb-4 font-italic border-bottom">
-        From the Firehose
-      </h3>
-
       <div class="blog-post">
         <h2 class="blog-post-title"><?php the_title(); ?></h2>
         <p class="blog-post-meta"><?php the_date(); ?> by <a href="#"><?php the_author(); ?></a></p>

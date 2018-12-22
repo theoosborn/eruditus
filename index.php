@@ -52,14 +52,14 @@
 
             get_template_part( 'content', get_post_format() );
 
-        endwhile; endif;
+        endwhile;
         ?>
 
       <nav class="blog-pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
-        <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
+        <div class="btn btn-outline-primary" ><?php next_posts_link( 'Older' ); ?></div>
+        <div class="btn btn-outline-secondary" ><?php previous_posts_link( 'Newer' ); ?></div>
       </nav>
-
+    <?php endif; ?>
     </div><!-- /.blog-main -->
 
     <?php get_sidebar(); ?>

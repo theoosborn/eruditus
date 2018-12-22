@@ -57,7 +57,7 @@
 
       <nav class="blog-pagination">
         <?php next_posts_link( '<div class="btn btn-outline-primary">Older</div>' ); ?></div>
-        <div class="btn btn-outline-secondary" ><?php previous_posts_link( '<div class="btn btn-outline-secondary">Newer</div>' ); ?></div>
+        <?php previous_posts_link( '<div class="btn btn-outline-secondary">Newer</div>' ); ?></div>
       </nav>
     <?php endif; ?>
     </div><!-- /.blog-main -->

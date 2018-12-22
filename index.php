@@ -9,7 +9,7 @@
     <title>Blog Template · Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-<link href="bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo get_bloginfo('template_directory'); ?>/bootstrap.min.css" rel="stylesheet">
 
 
     <style>

@@ -8,10 +8,6 @@
     <meta name="generator" content="Jekyll v3.8.5">
     <title><?php echo get_bloginfo( 'name' ); ?></title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SlJL6LojdN8eNCOoIfK7KJ7SgRFeYBDu8tB1uxELbSAv+RVgD12pZmOcxTUTPXIg" crossorigin="anonymous">
-
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -24,10 +20,6 @@
         }
       }
     </style>
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/blog.css" rel="stylesheet">
     <?php wp_head();?>
   </head>
   <body>

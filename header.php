@@ -6,7 +6,6 @@
     <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>">
     <meta name="author" content="Theo Osborn">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
 
     <style>
       .bd-placeholder-img {

@@ -8,7 +8,7 @@
     }
 
     add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
-    
+
     // Add Google Fonts
     function startwordpress_google_fonts() {
         wp_register_style('Playfair', 'https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
@@ -16,3 +16,6 @@
     }
     
     add_action('wp_print_styles', 'startwordpress_google_fonts');
+
+    // WordPress Titles
+    add_theme_support( 'title-tag' );

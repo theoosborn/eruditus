@@ -7,6 +7,8 @@
         wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '4.2.1', true );
     }
 
+    add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
+    
     // Add Google Fonts
     function startwordpress_google_fonts() {
         wp_register_style('Playfair', 'https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
